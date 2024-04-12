@@ -4,13 +4,13 @@ import "./globals.css";
 import Navbar from "@app/components/shared/Navbar";
 import Footer from "@app/components/shared/Footer";
 
-const poppins = Poppins({ subsets: ["latin"], weight: '400' });
+const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "",
   description: "A farming website",
-  keywords:[],
-  openGraph:{}
+  keywords: [],
+  openGraph: {},
 };
 
 export default function RootLayout({
@@ -22,11 +22,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <div className="bg-white">
-          <Navbar/>
-           {children}
-          <Footer/>
+          <Navbar />
+          {children}
+          <Footer />
         </div>
-        </body>
+      </body>
     </html>
   );
 }
