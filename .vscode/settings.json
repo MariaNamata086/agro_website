@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#ff0000",
+    "editorWarning.foreground": "#ffff00"
+  },
+  "editor.codeActionsOnSave": {},
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
+}
